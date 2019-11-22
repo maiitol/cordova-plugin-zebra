@@ -9,7 +9,7 @@ public class Zebra extends CordovaPlugin {
     @Override
     public boolean execute(String action, JSONArray data, CallbackContext callbackContext) throws JSONException {
 
-        if (action.equals("greet")) {
+        if (action.equals("print")) {
 
             String name = data.getString(0);
             String message = "Zebra, " + name;
